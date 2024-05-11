@@ -1,0 +1,58 @@
+.container {
+  margin: 15vh;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+  gap: 20px;
+}
+
+.icons a {
+  width: 30px;
+}
+
+.imagen {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+button {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px !important;
+  background-color: #2ba8fb;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s !important;
+}
+
+button:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px rgba(111, 197, 255, 0.3137254902);
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+
