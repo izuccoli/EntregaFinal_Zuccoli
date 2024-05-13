@@ -39,7 +39,7 @@
   height: 40px;
   padding-left: 0;
   padding-right: 0;
-  width: 460px;
+  width: 280px;
   display: flex;
   justify-content: center;
 }
@@ -166,6 +166,11 @@ footer p {
 .boton button a {
   text-decoration: none;
   color: white;
+}
+
+.row h3 {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
